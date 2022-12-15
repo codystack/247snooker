@@ -16,9 +16,7 @@
             <div class="row g-0 g-lg-6 text-secondary">
                 <div class="col-lg-6 text-lg-end order-lg-2">
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a href="" class="text-reset">facebook</a></li>
-                        <li class="list-inline-item ms-1"><a href="" class="text-reset">twitter</a></li>
-                        <li class="list-inline-item ms-1"><a href="" class="text-reset">linkedin</a></li>
+                        <li class="list-inline-item"><a href="https://instagram.com/247snookerng" class="text-reset">instagram</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-6 order-lg-1">
