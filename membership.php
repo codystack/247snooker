@@ -77,7 +77,7 @@
                     <div class="d-grid mb-2">
                     <button type="submit" name="login_btn" class="btn btn-lg btn-black">Sign In</button>
                     </div>
-                    <div class="row">
+                    <!-- <div class="row">
                     <div class="col">
                         <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -89,7 +89,7 @@
                     <div class="col text-end">
                         <a href="forgot-password" class="underline small">Forgot password?</a>
                     </div>
-                    </div>
+                    </div> -->
                 </form>
             </div>
             <div class="card-footer bg-opaque-black inverted text-center">
