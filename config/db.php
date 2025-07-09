@@ -12,9 +12,9 @@ if ($WEBSITE_ENVIRONMENT == "Development") {
     error_reporting(E_ALL ^ E_NOTICE); // turn ON showing errors
 } else {
     $host = "localhost";
-    $user = "lihomney_247snooker";
-    $password = "Webify2020!!";
-    $database = "lihomney_247snooker";
+    $user = "kkocdqej_247s";
+    $password = "RQ--3;{(fQn$";
+    $database = "kkocdqej_247s";
     define("APP_ENVIRONMENT", "Production");
     define("APP_BASE_URL", "https://www.247snooker.com.ng");
     #error_reporting(0); // turn OFF showing errors
