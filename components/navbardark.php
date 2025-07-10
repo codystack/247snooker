@@ -36,6 +36,12 @@
                 </li>
 
                 <li class="nav-item">
+                    <a class="nav-link" href="gallery">
+                        Gallery
+                    </a>
+                </li>
+
+                <li class="nav-item">
                     <a class="nav-link" href="pricing">
                         Pricing
                     </a>
