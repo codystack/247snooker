@@ -12,7 +12,7 @@ include "./components/navbar.php";
                 </div>
             </div>
         </div>
-        <figure class="background background-overlay" style="background-image: url('./assets/images/pic6.jpg')"
+        <figure class="background background-overlay" style="background-image: url('./assets/images/gallery/35.jpeg')"
         data-top-top="transform: translateY(0%);" data-top-bottom="transform: translateY(10%);"></figure>
     </section>
 
@@ -48,26 +48,26 @@ include "./components/navbar.php";
           data-top-bottom="transform: translateX(-40%)">
           <div class="col-6">
             <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/pic1.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/pic1.jpg')">
+              data-bp='{"imgSrc": "./assets/images/gallery/22.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/gallery/22.jpeg')">
               </span>
             </figure>        </div>
           <div class="col-6">
             <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/pic2.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/pic2.jpg')">
+              data-bp='{"imgSrc": "./assets/images/gallery/5.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/gallery/5.jpeg')">
               </span>
             </figure>        </div>
           <div class="col-6">
             <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/pic3.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/pic3.jpg')">
+              data-bp='{"imgSrc": "./assets/images/gallery/8.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/gallery/8.jpeg')">
               </span>
             </figure>        </div>
           <div class="col-6">
             <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/pic1.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/pic1.jpg')">
+              data-bp='{"imgSrc": "./assets/images/gallery/27.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/gallery/27.jpeg')">
               </span>
             </figure>        </div>
         </div>
@@ -75,32 +75,32 @@ include "./components/navbar.php";
           data-top-bottom="transform: translateX(-35%)">
           <div class="col-4">
             <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/pic4.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/pic4.jpg')">
+              data-bp='{"imgSrc": "./assets/images/gallery/33.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/gallery/33.jpeg')">
               </span>
             </figure>        </div>
           <div class="col-4">
             <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/pic5.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/pic5.jpg')">
+              data-bp='{"imgSrc": "./assets/images/gallery/37.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/gallery/37.jpeg')">
               </span>
             </figure>        </div>
           <div class="col-4">
             <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/pic6.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/hero.jpg')">
+              data-bp='{"imgSrc": "./assets/images/gallery/38.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/gallery/38.jpeg')">
               </span>
             </figure>        </div>
           <div class="col-4">
             <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/pic7.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/pic7.jpg')">
+              data-bp='{"imgSrc": "./assets/images/gallery/42.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/gallery/42.jpeg')">
               </span>
             </figure>        </div>
           <div class="col-4">
             <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/pic8.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/pic8.jpg')">
+              data-bp='{"imgSrc": "./assets/images/gallery/47.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/gallery/47.jpeg')">
               </span>
             </figure>        </div>
         </div>
@@ -114,42 +114,15 @@ include "./components/navbar.php";
         <div class="container">
             <div class="row justify-content-center">
             <div class="col-lg-8 text-white text-center">
-                <h2 class="fw-light mb-5"><span class="fw-bold">75% freelancers</span> prefer working from coworking over
-                working
-                from home.</h2>
-                <a href="" class="btn btn-outline-white rounded-pill">Get membership now</a>
+                <h2 class="fw-light mb-5">Book Your <span class="fw-bold">Snooker Table in Seconds</span><br>Play Like a Pro Today!</h2>
+                <a href="membership" class="btn btn-outline-white rounded-pill">Get membership now</a>
             </div>
             </div>
         </div>
         </div>
-        <figure class="background background-overlay" style="background-image: url('./assets/images/pic9.jpg')"
+        <figure class="background background-overlay" style="background-image: url('./assets/images/gallery/49.jpeg')"
         data-bottom-top="transform: scale(1);" data-top-bottom="transform: scale(1.1);"></figure>
     </section>
 
-
-    <!-- cta -->
-    <section class="py-15 py-xl-20 border-bottom">
-        <div class="container">
-        <div class="row g-4 g-xl-6">
-            <div class="col-lg-6" data-aos="fade-up">
-            <a href="" class="card h-100 border card-arrow">
-                <div class="card-body">
-                <h4 class="card-title fw-light fs-4"><span class="fw-bold">Let's connect.</span> Follow us on social
-                    media.</h4>
-                </div>
-            </a>
-            </div>
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <a href="" class="card card-arrow bg-primary inverted overflow-hidden">
-                <div class="card-body">
-                <h4 class="card-title fw-light fs-4">Will you love to <span class="fw-bold">get in touch</span> with us?</h4>
-                </div>
-                <img class="position-absolute top-50 start-50 translate-middle level-3" src="./assets/images/svg/dialog.svg"
-                alt="">
-            </a>
-            </div>
-        </div>
-        </div>
-    </section>
 
 <?php include "./components/footer.php"; ?>

@@ -14,6 +14,12 @@
                 </a>
             </li>
             <li class="nav-item d-none d-lg-block">
+                <a href="bet" class="btn btn-black rounded-pill ms-2">
+                    Bet Now
+                </a>
+            </li>
+
+            <li class="nav-item d-none d-lg-block">
                 <a href="membership" class="btn btn-outline-black rounded-pill ms-2">
                     Membership
                 </a>
@@ -51,6 +57,10 @@
                     <a class="nav-link" href="contact">
                         Contact us
                     </a>
+                </li>
+
+                <li class="nav-item d-lg-none mt-4">
+                    <a href="bet" class="nav-link btn btn-black rounded-pill">Bet Now</a>
                 </li>
 
                 <li class="nav-item d-lg-none mt-4">
