@@ -16,90 +16,67 @@ include "./components/navbardark.php";
           </div>
         </div>
       </div>
-      <div class="container gallery-1" data-aos="fade-up">
-        <div class="row flex-nowrap align-items-end g-2 g-xl-5 mb-2 mb-xl-5"
-          data-bottom-top="transform: translateX(-25%)" data-top-bottom="transform: translateX(-40%)">
-          <div class="col-6 col-lg-5">
+      
+      <div class="container gallery-1">
+        <div class="row flex-nowrap align-items-end g-2 g-xl-5 mb-2 mb-xl-5" data-bottom-top="transform: translateX(-25%)"
+          data-top-bottom="transform: translateX(-40%)">
+          <div class="col-6">
             <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/hero.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/hero.jpg')">
+              data-bp='{"imgSrc": "./assets/images/gallery/22.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/gallery/22.jpeg')">
               </span>
-            </figure>          </div>
-          <div class="col-6 col-lg-5">
+            </figure>        </div>
+          <div class="col-6">
             <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/pic1.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/pic1.jpg')">
+              data-bp='{"imgSrc": "./assets/images/gallery/5.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/gallery/5.jpeg')">
               </span>
-            </figure>          </div>
-          <div class="col-6 col-lg-5">
+            </figure>        </div>
+          <div class="col-6">
             <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/pic2.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/pic2.jpg')">
+              data-bp='{"imgSrc": "./assets/images/gallery/8.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/gallery/8.jpeg')">
               </span>
-            </figure>          </div>
-          <div class="col-6 col-lg-5">
+            </figure>        </div>
+          <div class="col-6">
             <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/hero.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/hero.jpg')">
+              data-bp='{"imgSrc": "./assets/images/gallery/27.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/gallery/27.jpeg')">
               </span>
-            </figure>          </div>
-          <div class="col-6 col-lg-5">
-            <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/hero.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/hero.jpg')">
-              </span>
-            </figure>          </div>
-          <div class="col-6 col-lg-5">
-            <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/pic3.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/pic3.jpg')">
-              </span>
-            </figure>          </div>
-          <div class="col-6 col-lg-5">
-            <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/pic4.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/pic4.jpg')">
-              </span>
-            </figure>          </div>
+            </figure>        </div>
         </div>
         <div class="row flex-nowrap align-items-start g-2 g-xl-5" data-bottom-top="transform: translateX(-50%)"
           data-top-bottom="transform: translateX(-35%)">
-          <div class="col-6 col-lg-5">
+          <div class="col-4">
             <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/pic5.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/pic5.jpg')">
+              data-bp='{"imgSrc": "./assets/images/gallery/33.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/gallery/33.jpeg')">
               </span>
-            </figure>          </div>
-          <div class="col-6 col-lg-5">
+            </figure>        </div>
+          <div class="col-4">
             <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/pic4.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/pic4.jpg')">
+              data-bp='{"imgSrc": "./assets/images/gallery/37.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/gallery/37.jpeg')">
               </span>
-            </figure>          </div>
-          <div class="col-6 col-lg-5">
+            </figure>        </div>
+          <div class="col-4">
             <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/pic6.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/pic6.jpg')">
+              data-bp='{"imgSrc": "./assets/images/gallery/38.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/gallery/38.jpeg')">
               </span>
-            </figure>          </div>
-          <div class="col-6 col-lg-5">
+            </figure>        </div>
+          <div class="col-4">
             <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/pic7.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/pic7.jpg')">
+              data-bp='{"imgSrc": "./assets/images/gallery/42.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/gallery/42.jpeg')">
               </span>
-            </figure>          </div>
-          <div class="col-6 col-lg-5">
+            </figure>        </div>
+          <div class="col-4">
             <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/pic8.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/pic8.jpg')">
+              data-bp='{"imgSrc": "./assets/images/gallery/47.jpeg" , "parentGalleryClass": "gallery-1" }' >
+              <span  style="background-image: url('./assets/images/gallery/47.jpeg')">
               </span>
-            </figure>          </div>
-          <div class="col-6 col-lg-5">
-            <figure class="media equal equal-16-10 media-image" 
-              data-bp='{"imgSrc": "./assets/images/pic9.jpg" , "parentGalleryClass": "gallery-1" }' >
-              <span  style="background-image: url('./assets/images/pic9.jpg')">
-              </span>
-            </figure>          </div>
+            </figure>        </div>
         </div>
       </div>
     </section>
@@ -136,6 +113,22 @@ include "./components/navbardark.php";
           </div>
         </div>
       </div>
+    </section>
+
+
+    <section class="py-15 py-xl-20 bg-black overflow-hidden mx-xl-3">
+        <div class="level-1">
+        <div class="container">
+            <div class="row justify-content-center">
+            <div class="col-lg-8 text-white text-center">
+                <h2 class="fw-light mb-5">Book Your <span class="fw-bold">Snooker Table in Seconds</span><br>Play Like a Pro Today!</h2>
+                <a href="auth" class="btn btn-outline-white rounded-pill">Get membership now</a>
+            </div>
+            </div>
+        </div>
+        </div>
+        <figure class="background background-overlay" style="background-image: url('./assets/images/gallery/49.jpeg')"
+        data-bottom-top="transform: scale(1);" data-top-bottom="transform: scale(1.1);"></figure>
     </section>
 
 <?php include "./components/footer.php" ?>

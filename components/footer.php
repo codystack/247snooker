@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row g-2 g-lg-6 mb-8">
                 <div class="col-lg-6">
-                    <h4>11A Emeyal Street, GRA Phase 3 <br>Port Harcourt.</h4>
+                    <h4>Abazillion Hotel, 6 Obagi Street GRA Phase 2, PHC.</h4>
                 </div>
                 <div class="col-lg-6 text-lg-end">
                     <span class="h5">+234 901 387 0726</span>

@@ -14,13 +14,13 @@
                 </a>
             </li>
             <li class="nav-item d-none d-lg-block">
-                <a href="bet" class="btn btn-black rounded-pill ms-2">
+                <a href="auth" class="btn btn-black rounded-pill ms-2">
                     Bet Now
                 </a>
             </li>
 
             <li class="nav-item d-none d-lg-block">
-                <a href="membership" class="btn btn-outline-black rounded-pill ms-2">
+                <a href="auth" class="btn btn-outline-black rounded-pill ms-2">
                     Membership
                 </a>
             </li>
@@ -60,11 +60,11 @@
                 </li>
 
                 <li class="nav-item d-lg-none mt-4">
-                    <a href="bet" class="nav-link btn btn-black rounded-pill">Bet Now</a>
+                    <a href="auth" class="nav-link btn btn-black rounded-pill">Bet Now</a>
                 </li>
 
                 <li class="nav-item d-lg-none mt-4">
-                    <a href="membership" class="nav-link btn btn-outline-black rounded-pill">Membership</a>
+                    <a href="auth" class="nav-link btn btn-outline-black rounded-pill">Membership</a>
                 </li>
 
             </ul>

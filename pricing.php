@@ -19,12 +19,12 @@ include "./components/navbardark.php";
                             <h2 class="h1 mb-4">₦1,500</h2>
                             <h4 class="text-muted mb-4">Happy Hour</h4>
                             <ul class="list-unstyled mb-4">
-                                <li class="py-1">3 Slots every wednesday</li>
+                                <li class="py-1">3 Slots every Wednesday</li>
                                 <li class="py-1">1 Bottle of beer</li>
                                 <li class="py-1">From 1pm - 7pm</li>
                             </ul>
                             <div class="d-grid">
-                                <a href="https://paystack.com/pay/h99vaqkipn"
+                                <a href="auth"
                                 class="btn btn-outline-white btn-lg rounded-pill btn-with-icon">Pay Now <i
                                     class="bi bi-arrow-right"></i></a>
                             </div>
@@ -42,7 +42,7 @@ include "./components/navbardark.php";
                                 <li class="py-1">Membership access card</li>
                             </ul>
                             <div class="d-grid">
-                                <a href="membership"
+                                <a href="auth"
                                 class="btn btn-outline-black btn-lg rounded-pill btn-with-icon">Get membership <i
                                     class="bi bi-arrow-right"></i></a>
                             </div>
@@ -60,7 +60,7 @@ include "./components/navbardark.php";
                                 <li class="py-1">Membership access card</li>
                             </ul>
                             <div class="d-grid">
-                                <a href="membership"
+                                <a href="auth"
                                 class="btn btn-outline-black btn-lg rounded-pill btn-with-icon">Get membership <i
                                     class="bi bi-arrow-right"></i></a>
                             </div>

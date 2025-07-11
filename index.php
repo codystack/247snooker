@@ -9,6 +9,13 @@ include "./components/navbar.php";
             <div class="row justify-content-center my-auto pb-5">
                 <div class="col-lg-6 text-center mb-5">
                     <h1 class="display-1 fw-bold text-white">Welcome to<br><span class="fw-bolder">24/7 SNOOKER</span></h1>
+                  
+                  <a href="auth" class="btn btn-white rounded-pill ms-2">
+                      Bet Now
+                  </a>
+                  <a href="auth" class="btn btn-outline-white rounded-pill ms-2">
+                      Membership
+                  </a>
                 </div>
             </div>
         </div>
@@ -42,7 +49,7 @@ include "./components/navbar.php";
     </section>
 
     <!-- gallery -->
-    <section class="overflow-hidden pb-15" data-aos="fade-left">
+    <section class="overflow-hidden" data-aos="fade-left">
       <div class="container gallery-1">
         <div class="row flex-nowrap align-items-end g-2 g-xl-5 mb-2 mb-xl-5" data-bottom-top="transform: translateX(-25%)"
           data-top-bottom="transform: translateX(-40%)">
@@ -108,6 +115,45 @@ include "./components/navbar.php";
     </section>
 
 
+    <section class="py-15 py-xl-20">
+      <div class="container">
+        <div class="row g-1 g-lg-2">
+          <h2 class="mb-5">Facilities you'll fall in love with.</h2>
+          <div class="col-auto">
+            <div class="d-flex align-items-center border rounded-pill pe-4">
+              <div class="icon-box icon-box-lg bg-opaque-black rounded-circle me-2">
+                <i class="bi bi-geo-alt-fill fs-5 text-black"></i>
+              </div>
+              2+ Locations
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="d-flex align-items-center border rounded-pill pe-4">
+              <div class="icon-box icon-box-lg bg-opaque-black rounded-circle me-2">
+                <i class="bi bi-clock-fill fs-5 text-black"></i>
+              </div>
+              24/7 Availability
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="d-flex align-items-center border rounded-pill pe-4">
+              <div class="icon-box icon-box-lg bg-opaque-black rounded-circle me-2">
+                <i class="bi bi-chat-quote-fill fs-5 text-black"></i>
+              </div> Amazing Networking
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="d-flex align-items-center border rounded-pill pe-4">
+              <div class="icon-box icon-box-lg bg-opaque-black rounded-circle me-2">
+                <i class="bi bi-people-fill fs-5 text-black"></i>
+              </div>
+              1000+ Members
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <section class="py-15 py-xl-20 bg-black overflow-hidden mx-xl-3">
         <div class="level-1">
@@ -115,7 +161,7 @@ include "./components/navbar.php";
             <div class="row justify-content-center">
             <div class="col-lg-8 text-white text-center">
                 <h2 class="fw-light mb-5">Book Your <span class="fw-bold">Snooker Table in Seconds</span><br>Play Like a Pro Today!</h2>
-                <a href="membership" class="btn btn-outline-white rounded-pill">Get membership now</a>
+                <a href="auth" class="btn btn-outline-white rounded-pill">Get membership now</a>
             </div>
             </div>
         </div>

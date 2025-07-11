@@ -12,6 +12,11 @@ include "./components/navbardark.php";
                     <hr class="my-4 fw-25 ml-0">
                     <ul class="list-group list-group-minimal">
                         <li class="list-group-item d-flex align-items-center">
+                        <span class="w-25 text-muted">Address</span>
+                        Abazillion Hotel, 6 Obagi Street GRA Phase 2, PHC.<br>
+                        Brick Rock Hotel & Suites, 100 Ada-George Road, PHC.
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
                         <span class="w-25 text-muted">Email</span>
                         snookerspotball247@gmail.com
                         </li>
@@ -31,7 +36,7 @@ include "./components/navbardark.php";
                     </div>
                     <div class="card bg-black text-white">
                         <div class="card-body">
-                            <h5>11A Emeyal Street, GRA Phase 3 <span class="font-weight-bold d-block">Port Harcourt.</span></h5>
+                            <h5>Abazillion Hotel, 6 Obagi Street GRA Phase 2, PHC.</h5>
                         </div>
                     </div>
                 </div>
@@ -41,7 +46,7 @@ include "./components/navbardark.php";
 
     <script>
         function initMap() {
-        var latlng = new google.maps.LatLng(4.824808024119059, 7.000607027979278);
+        var latlng = new google.maps.LatLng(4.82501, 6.99518);
 
         var myOptions = {
             zoom: 18,

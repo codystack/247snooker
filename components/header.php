@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="assets/css/fonts/stylesheet.css">
   
   <!-- Title -->
-  <title>24/7 Snooker&trade;</title></head>
+  <title>24/7 Snooker&trade;</title>
+</head>
 
 <body>
