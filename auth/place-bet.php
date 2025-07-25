@@ -55,7 +55,7 @@ require_once "./auth/voucher-query.php";
                                         <!-- Card body -->
                                         <div class="card-body">
                                             <div class="text-center">
-                                                <img src="http://localhost/247snooker/admin/<?php echo $picture; ?>" class="rounded-circle avatar-xxl mb-3" alt="contestant" style="height: 13rem;width: 13rem;object-fit: cover;object-position: center;border-radius: 1rem;">
+                                                <img src="http://247snooker.com.ng/backoffice/<?php echo $picture; ?>" class="rounded-circle avatar-xxl mb-3" alt="contestant" style="height: 13rem;width: 13rem;object-fit: cover;object-position: center;border-radius: 1rem;">
                                                 <h4 class="mb-0"><?php echo $fullName; ?></h4>
                                                 <p class="text-danger mt-0 pt-0 mb-2">Odd: <?php echo $odd; ?></p>
                                                 <a href="view-odd?id=<?php echo $id; ?>" class="btn btn-dark"> Place Bet </a>

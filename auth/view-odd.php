@@ -91,7 +91,7 @@ require_once "./auth/query.php";
                                     <div class="row">
                                         <div class="col-12 col-lg-12 col-sm-6 col-md-6 mb-4">
                                             <div class="">
-                                                <img src="http://localhost/247snooker/admin/<?php echo $picture; ?>" class="avatar-xxl rounded-circle"  style="height: 13rem;width: 13rem;object-fit: cover;object-position: center;border-radius: 1rem;"/>
+                                                <img src="http://247snooker.com.ng/backoffice<?php echo $picture; ?>" class="avatar-xxl rounded-circle"  style="height: 13rem;width: 13rem;object-fit: cover;object-position: center;border-radius: 1rem;"/>
                                                 <div class="mt-3">
                                                     <h3 class="mb-0"><?php echo $fullName; ?></h3>
                                                     <span class="text-danger">Odd: <?php echo $odd; ?></span>
