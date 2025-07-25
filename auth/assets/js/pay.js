@@ -17,7 +17,7 @@ function payWithPaystack(e) {
     callback: function(response){
       let message = 'Payment complete! Reference: ' + response.reference;
       alert(message);
-      window.location = "http://localhost/247snooker/auth/verify_transaction?reference=" + response.reference;
+      window.location = "https://247snooker.com.ng/auth/verify_transaction?reference=" + response.reference;
     }
   });
   handler.openIframe();
