@@ -2,7 +2,9 @@
         <div class="container">
             <div class="row g-2 g-lg-6 mb-8">
                 <div class="col-lg-6">
-                    <h4>Abazillion Hotel, 6 Obagi Street GRA Phase 2, PHC.</h4>
+                    <h6>- Abazillion Hotel, 6 Obagi Street GRA Phase 2, PHC.</h6>
+                    <h6>- Brick Rock Hotel & Suites, 100 Ada-George Road, PHC.</h6>
+                    <h6>- Wildwood Hotel 10 Chief Amadi Street, by Ada-George Road.</h6>
                 </div>
                 <div class="col-lg-6 text-lg-end">
                     <span class="h5">+234 901 387 0726</span>

@@ -1,5 +1,5 @@
 <?php
-$page = "Vouchers";
+$page = "Bet";
 include "./components/header.php";
 ?>
 
@@ -17,11 +17,11 @@ include "./components/header.php";
 						<!-- Card body -->
 						<div class="p-4 d-flex justify-content-between align-items-center">
 							<div>
-								<h3 class="mb-0">Vouchers</h3>
-								<span>Buy and sell vouchers.</span>
+								<h3 class="mb-0">Bet</h3>
+								<span>Bet for your favourite player.</span>
 							</div>
                             <div class="nav btn-group flex-nowrap" role="tablist">
-                                <a href="buy-voucher" class="btn btn-outline-primary btn-sm"> Buy Voucher</a>
+                                <a href="place-bet" class="btn btn-outline-primary btn-sm"> Place Bet</a>
                             </div>
 						</div>
 					</div>

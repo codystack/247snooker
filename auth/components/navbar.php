@@ -19,11 +19,11 @@
                         <a class="nav-link" href="dashboard"><i class="bi bi-ui-checks-grid nav-icon"></i> My Dashboard</a>
                     </li>
 
-                    <li class="nav-item <?php if($page=='Fund Wallet'){echo 'active';}?>">
+                    <li class="nav-item <?php if($page=='Wallet'){echo 'active';}?>">
                         <a class="nav-link" href="wallet"><i class="bi bi-wallet nav-icon"></i> Wallet</a>
                     </li>
 
-                    <li class="nav-item <?php if($page=='Vouchers'){echo 'active';}?>">
+                    <li class="nav-item <?php if($page=='Bet'){echo 'active';}?>">
                         <a class="nav-link" href="bet"><i class="bi bi-controller nav-icon"></i> Bet</a>
                     </li>
 
@@ -35,9 +35,9 @@
                         <a class="nav-link" href="withdrawal"><i class="bi bi-cash-stack nav-icon"></i> Withdraw</a>
                     </li>
                     
-                    <li class="nav-item <?php if($page=='Transactions'){echo 'active';}?>">
+                    <!-- <li class="nav-item <?php if($page=='Transactions'){echo 'active';}?>">
                         <a class="nav-link" href="transactions"><i class="bi bi-arrow-down-up nav-icon"></i> Transactions</a>
-                    </li>
+                    </li> -->
                     
                     <li class="nav-item <?php if($page=='Support'){echo 'active';}?>">
                         <a class="nav-link" href="support"><i class="bi bi-chat-right-text nav-icon"></i>Support</a>

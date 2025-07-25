@@ -37,7 +37,7 @@ require_once "./auth/voucher-query.php";
                                         <div class="card-body">
                                             <div class="text-center">
                                                 <img src="./assets/images/png/card5.png" class="rounded-circle avatar-xl mb-3" alt="voucher">
-                                                <h4 class="mb-1">₦1,500 <br>Happy Hour Plan</h4>
+                                                <h4 class="mb-1">₦5,000 <br>Happy Hour Plan</h4>
                                                 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
                                                     <div class="row align-items-center">
                                                         <div class="col-md-6" style="display: none">
@@ -50,7 +50,7 @@ require_once "./auth/voucher-query.php";
                                                         <div class="col-md-6" style="display: none">
                                                             <div class="form-group">
                                                                 <label class="form-control-label">Amount</label>
-                                                                <input class="form-control" type="text" name="amount" value="1500" readonly>
+                                                                <input class="form-control" type="text" name="amount" value="5000" readonly>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -70,7 +70,7 @@ require_once "./auth/voucher-query.php";
                                         <div class="card-body">
                                             <div class="text-center">
                                                 <img src="./assets/images/png/card4.png" class="rounded-circle avatar-xl mb-3" alt="voucher">
-                                                <h4 class="mb-1">₦20,000<br>Classic Plan</h4>
+                                                <h4 class="mb-1">₦50,000<br>Classic Plan</h4>
                                                 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
                                                     <div class="row align-items-center">
                                                         <div class="col-md-6" style="display: none">
@@ -83,7 +83,7 @@ require_once "./auth/voucher-query.php";
                                                         <div class="col-md-6" style="display: none">
                                                             <div class="form-group">
                                                                 <label class="form-control-label">Amount</label>
-                                                                <input class="form-control" type="text" name="amount" value="20000" readonly>
+                                                                <input class="form-control" type="text" name="amount" value="50000" readonly>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -103,7 +103,7 @@ require_once "./auth/voucher-query.php";
                                         <div class="card-body">
                                             <div class="text-center">
                                                 <img src="./assets/images/png/card6.png" class="rounded-circle avatar-xl mb-3" alt="voucher">
-                                                <h4 class="mb-1">₦25,000<br> Premium Plan</h4>
+                                                <h4 class="mb-1">₦100,000<br> Premium Plan</h4>
                                                 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
                                                     <div class="row align-items-center">
                                                         <div class="col-md-6" style="display: none">
@@ -116,7 +116,7 @@ require_once "./auth/voucher-query.php";
                                                         <div class="col-md-6" style="display: none">
                                                             <div class="form-group">
                                                                 <label class="form-control-label">Amount</label>
-                                                                <input class="form-control" type="text" name="amount" value="25000" readonly>
+                                                                <input class="form-control" type="text" name="amount" value="100000" readonly>
                                                             </div>
                                                         </div>
                                                     </div>

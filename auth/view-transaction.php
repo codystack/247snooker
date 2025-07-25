@@ -1,5 +1,5 @@
 <?php
-$page = "Transactions";
+$page = "Wallet";
 include "./config/db.php";
 include "./components/header.php";
 ?>
