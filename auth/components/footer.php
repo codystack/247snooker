@@ -127,6 +127,27 @@ include "./modals/withdrawal.php";
 
 
     <?php
+        if (isset($_SESSION['bet_success_message'])) {
+            $id = $_GET['id'];
+    ?>
+        <script>
+            swal({
+                title: "<?php echo $_SESSION['bet_success_message_title']; ?>",
+                text: "<?php echo $_SESSION['bet_success_message']; ?>",
+                icon: "success",
+                buttons: false,
+                timer: 4000
+            }).then(function() {
+                window.location = "./bet";
+            });
+        </script>
+    <?php
+        unset($_SESSION['bet_success_message']);
+        }
+    ?>
+
+
+    <?php
         if (isset($_SESSION['successx_message'])) {
     ?>
         <script>

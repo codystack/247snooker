@@ -18,8 +18,8 @@ require_once "./auth/voucher-query.php";
 						<!-- Card body -->
 						<div class="p-4 d-flex justify-content-between align-items-center">
 							<div>
-								<h3 class="mb-0">Purchase Subscription</h3>
-								<span>Buy and renew subscription with ease.</span>
+								<h3 class="mb-0">Contestants</h3>
+								<span>Bet on your favourite contestant.</span>
 							</div>
                             <div class="nav btn-group flex-nowrap">
                                 <button onclick="goBack()" class="btn btn-outline-dark btn-sm"><i class="bi bi-arrow-left"></i> Go Back</button>
@@ -43,7 +43,7 @@ require_once "./auth/voucher-query.php";
 
                                     if (mysqli_num_rows($result) > 0) {
                                         while ($row = mysqli_fetch_assoc($result)) {
-                                            $idD = $row['id'];
+                                            $id = $row['id'];
                                             $fullName = $row['fullName'];
                                             $odd = $row['odd'];
                                             $picture = $row['picture'];
@@ -58,7 +58,7 @@ require_once "./auth/voucher-query.php";
                                                 <img src="http://localhost/247snooker/admin/<?php echo $picture; ?>" class="rounded-circle avatar-xxl mb-3" alt="contestant" style="height: 13rem;width: 13rem;object-fit: cover;object-position: center;border-radius: 1rem;">
                                                 <h4 class="mb-0"><?php echo $fullName; ?></h4>
                                                 <p class="text-danger mt-0 pt-0 mb-2">Odd: <?php echo $odd; ?></p>
-                                                <button type=submit name="happy_hour_plan_btn" class="btn btn-sm btn-dark"> Place Bet </button>
+                                                <a href="view-odd?id=<?php echo $id; ?>" class="btn btn-dark"> Place Bet </a>
                                             </div>
                                         </div>
                                     </div>

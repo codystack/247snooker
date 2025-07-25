@@ -35,56 +35,39 @@ include "./components/header.php";
                                 <thead class="table-light">
                                 <tr>
                                     <th scope="col" class="border-0">SN</th>
-                                    <th scope="col" class="border-0">Voucher</th>
-                                    <th scope="col" class="border-0">Amount</th>
-                                    <th scope="col" class="border-0">Date</th>
-                                    <th scope="col" class="border-0">Status</th>
-                                    <th scope="col" class="border-0 text-end">Actions</th>
+                                    <th scope="col" class="border-0">Bet Amount</th>
+                                    <th scope="col" class="border-0">Odd</th>
+                                    <th scope="col" class="border-0">Potential Win</th>
+                                    <th scope="col" class="border-0">Stake Date</th>
                                 </tr>
                                 </thead>
                                 <!-- Table body -->
                                 <tbody>
                                 <?php
-                                $voucher_id = 1;
-                                $select_query = "SELECT * FROM vouchers WHERE userID='".$_SESSION['id']."' ORDER BY transactionDate DESC";
+                                $bet_id = 1;
+                                $select_query = "SELECT * FROM bet WHERE userID='".$_SESSION['id']."'";
                                 $result = mysqli_query($conn, $select_query);
                                 if (mysqli_num_rows($result) > 0) {
                                     // output data of each row
                                     while($row = mysqli_fetch_assoc($result)) {
                                         $id = $row['id'];
-                                        $voucher = $row['voucher'];
-                                        $amount = $row['amount'];
-                                        $paymentMethod = $row['paymentMethod'];
-                                        $transactionDate = $row['transactionDate'];
-                                        $date = strtotime($transactionDate);
-                                        $status = $row['status'];
-                                        switch ($status) {
-                                            case "Used";
-                                                $class  = 'bg-secondary';
-                                                $text = 'text-secondary';
-                                                break;
-                                            case "Active";
-                                                $class  = 'bg-success';
-                                                $text = 'text-success';
-                                                break;
-                                            default:
-                                                $class  = '';
-                                        }
+                                        $odd = $row['odd'];
+                                        $bet_amount = $row['bet_amount'];
+                                        $potential_win = $row['potential_win'];
+                                        $dateCreated = $row['dateCreated'];
+                                        $date = strtotime($dateCreated);
 
                                         echo "<tr>";
-                                        echo "<td class=\"align-middle border-top-0\">" .$voucher_id. "</td>";
-                                        echo "<td class=\"align-middle border-top-0\">" .$voucher. "</td>";
-                                        echo "<td class=\"align-middle border-top-0\">" ."₦" .number_format($amount, 2, '.', ','). "</td>";
+                                        echo "<td class=\"align-middle border-top-0\">" .$bet_id. "</td>";
+                                        echo "<td class=\"align-middle border-top-0\">" ."₦" .number_format($bet_amount, 2, '.', ','). "</td>";
+                                        echo "<td class=\"align-middle border-top-0\">" .$odd. "</td>";
+                                        echo "<td class=\"align-middle border-top-0\">" ."₦" .number_format($potential_win, 2, '.', ','). "</td>";
                                         echo "<td class=\"align-middle border-top-0\">" .date('j F Y', $date). "</td>";
-                                        echo "<td class=\"align-middle border-top-0\">" ."<span class='badge badge-dot $class'></span><span class='$text text-capitalize'> $status </span>". "</td>";
-                                        echo "<td class=\"text-muted align-middle text-end border-top-0\">"
-                                            ."<a href=\"view-voucher?id=$id\" class='btn btn-dark btn-sm'><i class=\"fe fe-eye \"></i> View</a>".
-                                        "</td>";
                                     "</tr>";
-                                    $voucher_id++;
+                                    $bet_id++;
                                     }
                                 }else {
-                                    echo "<td><p>No Vouchers Yet!</p></td>";
+                                    echo "<td><p>No Bet Yet!</p></td>";
                                 }
                                 ?>
                                 </tbody>
